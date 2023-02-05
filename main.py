@@ -18,4 +18,5 @@ if no < 10:
 else:
     no = str(no)
 
-components.iframe(base_url + no, height = 800,scrolling = True)
+# components.iframe(base_url + no, height = 800,scrolling = True)
+components.iframe(base_url + no)
